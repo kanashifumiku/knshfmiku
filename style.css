@@ -1,0 +1,68 @@
+/*reset&import*/
+*{padding: 0; margin: 0;}
+
+@font-face {
+  font-family: digital-italic;
+  src:url(aset/font/digital/digiit.ttf);
+}
+
+@font-face {
+  font-family: notojpl;
+  src:url(aset/font/serif/notojpl.otf);
+}
+
+body{
+  font-family: 'Poppins';
+}
+
+:root{
+  --aksenSatu: #515FFF;
+}
+
+/*navigation*/
+.navigation-top{
+  position: sticky;
+  top: 0;
+}
+.navigation-top .navigation-parent nav{
+  padding: 5% 5%;
+  outline: 1px solid #42445AB8;
+}
+.navigation-top .navigation-parent nav .logoText{
+  font-family: 'digital-italic';
+}
+
+/*hello*/
+.hello{
+  margin: 10vh 5%;
+}
+.hello .greeting-accent{
+  color: var(--aksenSatu);
+}
+.hello .start-btn{
+  background: none;
+  float: right;
+  border: none;
+  font-family: 'notojpl';
+}
+
+/*content*/
+.content{
+  margin: 5%;
+}
+.content .titleContent{
+  font-weight: 300;
+}
+.content ul{
+  list-style: none;
+}
+.content ul li{
+  display: flex;
+  align-items: center;
+}
+.content i.lab /*icon*/{
+  font-size: 32px;
+}
+.content i.las{
+  font-size: 32px;
+}
